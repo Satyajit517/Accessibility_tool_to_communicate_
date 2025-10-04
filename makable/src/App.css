@@ -1,0 +1,37 @@
+*{
+  margin: 0;padding: 0;
+  color: aliceblue;
+  background-color: black;
+}
+.dashboard{
+  width: 100%;
+  /* background-color: rgba(210, 210, 210, 0.711); */
+}
+.dashboard h1{
+  display: flex;
+  justify-content: center;
+  padding: 100px 100px;
+  font-size: 50px;
+  font-weight: 500;
+}
+.pages{
+  margin-bottom: 50px;
+  display: flex;
+  justify-self: center;
+  gap: 100px;
+  padding: 20px;
+}
+.pages button{
+  background-color: rgba(222, 222, 222, 0.578);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  border: 1px solid whitesmoke;
+}
+.pages button:hover{
+  background-color: rgba(248, 248, 248, 0.484);
+  /* transform: translateY(-2px); */
+  transform: scale(120%);
+  color: aliceblue;
+}

@@ -1,0 +1,92 @@
+/* Hide default file input */
+input[type="file"] {
+  display: none;
+}
+
+/* Container centering everything */
+.op {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Custom file upload button */
+.custom-file-upload {
+  padding: 20px 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  background-color: #4a90e2; /* modern blue */
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.custom-file-upload:hover,
+.custom-file-upload:focus {
+  background-color: #357ABD;
+  transform: scale(1.05);
+  outline: none;
+}
+
+/* File actions (buttons) */
+.file-actions {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.file-actions button {
+  padding: 15px 30px;
+  border-radius: 20px;
+  border: none;
+  background-color: #4caf50; /* modern green */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.file-actions button:hover {
+  background-color: #3e8e41;
+  transform: scale(1.05);
+}
+
+/* Clear button */
+.clear-btn {
+  background-color: #f44336; /* modern red */
+}
+
+.clear-btn:hover {
+  background-color: #d32f2f;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Extracted text box */
+.transcribed-text {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.transcribed-text pre {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
